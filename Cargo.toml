@@ -17,17 +17,17 @@ autobenches = false
 features = ["std", "serde", "rand", "prime"]
 
 [dependencies]
-sgx_tstd = { rev = "v1.1.3", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
+sgx_tstd = { rev = "v1.1.6", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
 
 [dependencies.smallvec]
 version = "1.0.0"
 #default-features = false
-git = "https://github.com/mesalock-linux/rust-smallvec-sgx"
+git = "https://github.com/DAuth-Network/rust-smallvec-sgx"
 
 [dependencies.num-integer]
 version = "0.1.39"
 #default-features = false
-git = "https://github.com/mesalock-linux/num-integer-sgx"
+git = "https://github.com/DAuth-Network/num-integer-sgx"
 
 [dependencies.num-traits]
 version = "0.2.4"
@@ -37,13 +37,13 @@ git = "https://github.com/mesalock-linux/num-traits-sgx"
 [dependencies.num-iter]
 version = "0.1.37"
 #default-features = false
-git = "https://github.com/mesalock-linux/num-iter-sgx"
+git = "https://github.com/DAuth-Network/num-iter-sgx"
 
 [dependencies.rand]
 optional = true
 version = "0.7"
 #default-features = false
-git = "https://github.com/mesalock-linux/rand-sgx"
+git = "https://github.com/DAuth-Network/rand-sgx"
 tag = "v0.7.3_sgx1.1.3"
 
 [dependencies.zeroize]
@@ -56,7 +56,7 @@ features = ["alloc", "zeroize_derive"]
 optional = true
 version = "1.0"
 #default-features = false
-git = "https://github.com/mesalock-linux/serde-sgx"
+git = "https://github.com/DAuth-Network/serde-sgx"
 
 [dependencies.libm]
 version = "0.2.1"
@@ -71,7 +71,7 @@ features = ["spin_no_std"]
 [dependencies.byteorder]
 version = "1.2.7"
 #default-features = false
-git = "https://github.com/mesalock-linux/byteorder-sgx"
+git = "https://github.com/DAuth-Network/byteorder-sgx"
 
 [dev-dependencies]
 #rand_chacha = "0.2"
