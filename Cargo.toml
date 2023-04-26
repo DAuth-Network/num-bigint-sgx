@@ -33,17 +33,17 @@ harness = false
 name = "shootout-pidigits"
 
 [dependencies]
-sgx_tstd = { rev = "v1.1.3", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
+sgx_tstd = { rev = "v1.1.6", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
 
 [dependencies.num-integer]
 #version = "0.1.42"
 #default-features = false
-git = "https://github.com/mesalock-linux/num-integer-sgx"
+git = "https://github.com/DAuth-Network/num-integer-sgx"
 
 [dependencies.num-traits]
 #version = "0.2.11"
 #default-features = false
-git = "https://github.com/mesalock-linux/num-traits-sgx"
+git = "https://github.com/DAuth-Network/num-traits-sgx"
 
 #[dependencies.rand]
 #optional = true
@@ -57,7 +57,7 @@ optional = true
 version = "1.0"
 #default-features = false
 #features = ["std", "mesalock_sgx"]
-git = "https://github.com/mesalock-linux/serde-sgx"
+git = "https://github.com/DAuth-Network/serde-sgx"
 
 [dependencies.quickcheck]
 optional = true
@@ -69,7 +69,7 @@ git = "https://github.com/mesalock-linux/quickcheck-sgx"
 optional = true
 #version = "0.8"
 #default-features = false
-git = "https://github.com/mesalock-linux/quickcheck-sgx"
+git = "https://github.com/DAuth-Network/quickcheck-sgx"
 
 #[dev-dependencies.serde_test]
 #version = "1.0"
