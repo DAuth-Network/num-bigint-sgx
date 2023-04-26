@@ -63,7 +63,7 @@ git = "https://github.com/DAuth-Network/serde-sgx"
 optional = true
 #version = "0.8"
 #default-features = false
-git = "https://github.com/mesalock-linux/quickcheck-sgx"
+git = "https://github.com/DAuth-Network/quickcheck-sgx"
 
 [dependencies.quickcheck_macros]
 optional = true
